@@ -1,0 +1,151 @@
+html, body{
+  margin-right: -30px;
+  padding: 0;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg") no-repeat center center;
+	background-size: cover;
+	height:570px;
+	color: #FFFFFF;
+	margin: 0;
+  padding: 0;
+}
+
+.jumbotron img {
+	width: 110px;
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron ul {
+	color: #FFFFFF;
+	display: inline;
+	position: relative;
+	top: 40px;
+}
+
+.jumbotron ul li {
+	color: #FFFFFF;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.jumbotron ul li a {
+	background-color: #FF003D;
+	padding: 10px 30px;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+.jumbotron .btn {
+	background-color: transparent;
+} 
+
+.jumbotron ul li a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+.jumbotron .btn:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	
+} 
+
+.main {
+	position: relative;
+	top: 78px;
+}
+
+
+/*supporting*/
+
+.supporting {
+	color: #FFFFFF;
+	margin-top: -30px;
+	margin: 0;
+  padding: 0;
+}
+
+.supporting img {
+	width: 450px;
+	height: 300px;
+}
+
+
+.supporting-1, .supporting-2, .supporting-3 {
+	padding: 70px 0;
+}
+
+.supporting-1 {
+	background-color: #161718;
+}
+
+.supporting-2 {
+	background-color: #000000;
+}
+
+.supporting-3 {
+	background-color: #161718;
+}
+
+.supporting-4 {
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg") no-repeat center center;
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+}
+
+.supporting-4 h2 {
+	position: relative;
+	top: 120px;
+}
+
+.supporting-4 .image {
+	position: relative;
+	top: 120px;
+	width: 130px;
+	height: 45px;
+}
+
+/*footer*/
+
+.footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 50px 0 35px 0;
+	margin: 0;
+
+}
+
+.footer h3 {
+	font-size: 15px;
+}
+
+.footer ul {
+	color: #AAAAAA;
+	list-style: none;
+	padding: 0;
+}
+
+.footer ul a{
+	color: #AAAAAA;
+	display: inline-block;
+	padding: 5px 0;
+	font-size: 13px;
+	text-decoration:none;
+}
+
+
+.footer ul a:hover {
+	color: #AAAAAA;
+	text-decoration: underline;
+}
+
